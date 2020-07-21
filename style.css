@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+table {
+    text-align: center;
+    border: 6px solid #534F31;
+    background-color: #EAE3A6;
+    border-radius: 16px;
+    border-spacing: 5px;
+    -moz-box-shadow: inset 0 0 5px 5px #534F31;
+    -webkit-box-shadow: inset 0 0 5px 5px#534F31;
+    box-shadow: inset 0 0 2px 2px #534F31;
+}
+
+tr{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    border: solid 2px #888;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+
+    -moz-box-shadow: inset 0 0 5px 5px #888;
+    -webkit-box-shadow: inset 0 0 5px 5px#888;
+    box-shadow: inset 0 0 2px 2px #888;
+}
+
+#titre{
+    color: #D26755;
+    border: 10px solid #D26755;
+    -moz-box-shadow: inset 0 0 5px 5px #D26755;
+    -webkit-box-shadow: inset 0 0 5px 5px#D26755;
+    box-shadow: inset 0 0 2px 2px #D26755;
+
+
+    background-color: rgb(255, 237, 234);
+    width: 360px;
+    
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    font-size: xxx-large;
+}
+
+.container{
+    width: 360px;
+
+    padding: 10px;
+}
+
+#scorer{
+    color: #534F31;
+    border: 3px solid #534F31;
+    background-color: #EAE3A6;
+    width: 100px;
+    border-radius: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+#restart{
+    color: #534F31;
+    font-family: 'Fredoka One', cursive;
+    border: 3px solid #534F31;
+    background-color: rgb(177, 169, 99);
+    width: 80px;
+    border-radius: 8px;
+    font-size: medium;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.color_2{
+    background-color: #C4DDCB;
+    color: white;
+}
+
+.color_4{
+    background-color: #A6CCB1;
+    color: white;
+}
+
+.color_8{
+    background-color: #7AB28A;
+    color: white;
+}
+
+.color_16{
+    background-color: #5DA271;
+    color: white;
+}
+
+.color_32{
+    background-color: #4D855D;
+    color: white;
+}
+
+.color_64{
+    background-color: #3C6848;
+    color: white;
+}
+
+.color_128{
+    background-color: #33593E;
+    color: white;
+}
+
+.color_256{
+    background-color: #2B4A34;
+    color: white;
+}
+
+.color_512{
+    background-color: #223B2A;
+    color: white;
+}
+
+.color_1024{
+    background-color: #1A2D1F;
+    color: white;
+}
+
+.color_2048{
+    background-color: #D26755;
+    color: white;
+}
